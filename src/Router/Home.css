@@ -1,0 +1,96 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } */
+.banner-container{
+    background-image: url(../assets/BG.jpg);
+    height:100vh ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width:100vw; */
+    width:100vw;
+     color: aliceblue;
+    
+}
+.contain{
+    display: inline-block;
+    margin-top: 125px;
+    margin-left: 20px;
+}
+.heading{
+    z-index: -1000;
+    color: rgb(174, 177, 181);
+    font-size: 60px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.para-content{
+     
+    display: inline;
+     color:rgb(161, 168, 176);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.contact-btn{
+    background-color: rgb(251, 205, 212);
+    color: #242323;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
+ 
+
+ @media screen and(min-width:768px)and(max-width:1024px){
+     
+    .banner-container{
+    background-image: url(../assets/BG.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+ 
+ 
+     color: aliceblue;
+         
+    }
+    
+ }
+ @media screen and (min-width:468px)and (max-width:768px)  {
+     
+    .banner-container{
+    background-image: url(../assets/BG.jpg);
+    height:85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:100%;
+ justify-self: center;
+     color: aliceblue;
+         
+    }
+    .contain{
+      margin-top: 25vh;
+    }
+    
+ }
+ @media screen and (max-width:450px){
+    .banner-container{
+    background-image: url(../assets/BG.jpg);
+    height:85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:100%;
+ justify-self: center;
+     
+ }
+ .contain{
+    margin-top: 2vh;
+ }
+}

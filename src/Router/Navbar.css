@@ -1,0 +1,147 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.main-nav-container{
+       background-color: #141414;
+    display:flex;
+       justify-content: space-between;
+    padding:35px;
+  
+    position:relative;
+     
+
+    
+}
+.logo-container{
+    /* background-color: bisque; */
+   position: relative;
+ margin-top:-25px;
+    display: inline-block;
+     
+    
+ 
+ 
+}
+.img{
+    margin-top:-65px;
+    left: -35px;
+    
+    position:absolute;
+    height:200px;
+   
+  display: inline-block;
+  vertical-align: middle;
+  background-size: contain;
+   
+}
+.nav-container{
+    display:flex;
+    justify-content:space-around;
+ 
+    width:380px;
+    text-decoration: none;
+     
+    
+}
+.link-container{
+ display: flex;
+ 
+
+}
+  .link-container .link{
+     transition: color 150ms ease;
+  }
+.link{
+    text-decoration: none;
+    font-size:25px;
+    color: rgb(188, 187, 187);
+    padding: 10px;
+    cursor: pointer;
+}
+ .link-container .link:hover,
+ .link-container .link:active{
+    color: #ffffff;
+ }
+
+
+.social-icon-container{
+    display: flex;
+  align-items: center;
+    margin-top: 5px;
+    gap:10px;
+}
+.social-icon{
+    display: inline-flex;
+    margin-top: 20px;
+    opacity: 0.85;
+    color: #572424;
+    transition: opacity 150ms ease, transform 120ms ease;
+  
+   
+     
+}
+.social-icon:hover{
+    opacity: 1;
+    transform:translateY(-1px);
+}
+.hamburger{
+    display: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+ @media (max-width:600px) {
+  .main-nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  .hamburger{
+    display: block;
+  position: relative;
+  justify-self: center;
+  
+  font-size: 2rem;
+  cursor: pointer;
+  }
+  .nav-container{
+    flex-direction:column;
+     z-index:9999;
+    
+    position: absolute;
+    top: 60px;
+    right: 0;
+    
+      background-color:#141414;
+      
+     
+    
+         color: rgb(188, 187, 187);
+      
+      display: none;
+      padding: 25px 0;
+      border-radius:20px;
+  }
+   .nav-container.open{
+    display: flex;
+ 
+    right: 50px;
+ 
+   
+  }
+  .link-container{
+    flex-direction:column;
+  }
+  .social-icon-container{
+    flex-direction:column;
+    justify-content: center;
+  }
+  
+  .link{
+ 
+    text-align: center;
+    padding: 12px;
+  }
+  
+ }

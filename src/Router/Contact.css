@@ -1,0 +1,221 @@
+
+.contact-container{
+    background-color: rgb(52, 51, 51);
+  
+    height: 70vh;
+    display: flex;
+
+}
+.txt-container{
+    width: 50%;
+    /* background-color: aqua; */
+
+}
+.contact-heading{
+    font-size: 35px;
+    color: rgb(224, 232, 239);
+    margin-top: 22vh;
+    margin-left: 4vw;
+    font-weight: lighter;
+    
+}
+.con-para{
+    color: rgb(155, 158, 160);
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    font-weight: bold;
+
+}
+ .span{
+    color: rgb(155, 158, 160);
+    font-size: 19px;
+    text-align: justify; 
+     margin-left:4vw;
+    margin-top: 4vh;
+    font-weight: bold;
+
+ }
+.form-container{
+    width: 50%;
+    
+
+
+}
+.felid-container{
+    height: 75%;
+    width: 90%;
+ 
+    justify-self: center;
+ margin-top: 12vh;
+
+}
+.name-input-container{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+ 
+  
+}
+.lable{
+display:block;
+width:45%;
+ 
+
+}
+.lable-name{
+    font-size: 18px;
+    color: rgb(182, 183, 184);
+
+}
+.input{
+    display: block;
+    width: 45%;
+   
+    
+    
+
+}
+ 
+ 
+.input-name{
+    width: 100%;
+    padding: 10px;
+    
+  border: 1px solid rgb(111, 111, 110);
+    border-radius: 7px;
+    background-color: transparent;
+     color: rgb(178, 179, 180);
+     
+}
+.input-email{
+    width: 100%;
+    padding: 10px;
+     border: 1px solid rgb(111, 111, 110);
+    border-radius: 7px;
+    background-color: transparent;
+     color: rgb(178, 179, 180);
+}
+.message{
+    display: block;
+    margin-top: 5vh;
+    width: 100%;
+    
+    
+
+}
+.msg-txt{
+    width:90%;
+    justify-self: center;
+    padding: 80px 32px;
+    background-color: transparent;
+      border: 1px solid rgb(111, 111, 110);
+    border-radius: 7px;
+     color: rgb(178, 179, 180);
+     
+    
+}
+.sbt-btn{
+ margin-left: 1vw;
+ margin-top: 1.5vh;
+    font-size: 20px;
+    padding: 1px;
+    width: 150px;
+    background-color:transparent;
+    color: rgb(211, 229, 245);
+     border: 1px solid rgb(111, 111, 110);
+    border-radius: 7px;
+     
+    
+}
+.sbt-btn:hover{
+    background-color: rgb(117, 115, 0);
+    color: black;
+}
+
+ @media screen  and (max-width:1024px){
+
+    .contact-container{
+    background-color: rgb(52, 51, 51);
+  
+    height: 100%;
+   flex-direction: column;
+
+}
+.txt-container{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 50%;
+
+}
+.contact-heading{
+    font-size: 40px;
+    color: rgb(224, 232, 239);
+    margin-top: 10vh;
+    margin-left: 4vw;
+    font-weight: lighter;
+    
+}
+.con-para{
+    color: rgb(155, 158, 160);
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    font-weight: bold;
+
+}
+.span{
+    font-size: 25px;
+}
+      /* form css */
+      .form-container{
+    width: 100%;
+    
+
+
+}
+.felid-container{
+    height: 75%;
+    width: 90%;
+ 
+    justify-self: center;
+ margin-top: 10vh;
+
+}
+ 
+.lable-name{
+    font-size: 25px;
+    color: rgb(182, 183, 184);
+
+}
+ 
+ 
+.message{
+    display: block;
+    margin-top: 2vh;
+    width: 100%;
+    height: 100%;
+}
+ 
+.sbt-btn{
+ margin-left: 1vw;
+ margin-top: 1.5vh;
+    font-size: 30px;
+    padding: 8px;
+    width: 150px;
+    background-color:transparent;
+    color: rgb(211, 229, 245);
+     border: 1px solid rgb(111, 111, 110);
+    border-radius: 7px;
+    margin-bottom: 10px;
+     
+    
+}
+.sbt-btn:hover{
+    background-color: rgb(117, 115, 0);
+    color: black;
+}
+    
+ }

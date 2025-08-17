@@ -1,0 +1,244 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.portfolio-container{
+  background-color: rgb(17, 16, 16);
+  height:110vh;
+  /* display: block; */
+ 
+}
+ 
+
+.portfolio-title{
+ position: absolute;
+  color: rgb(235, 229, 229);
+  margin-top: 3.5vh;
+  margin-left: 5.5vw;
+  font-size: 3.2rem;
+  font-weight: lighter;
+ 
+ 
+ 
+  
+}
+.img-div{
+  /* background-color:rgb(96, 67, 67) ; */
+ display: block;
+ height: 80vh;
+ margin-top: 12vh;
+ margin-left: 5vw;
+ width: 90%;
+}
+.portfolio-img-div{
+  
+  display: flex;
+  
+ 
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: 50%;
+ 
+}
+.div-img1{
+  height: 100%;
+  background-image: url(../assets/cropped_0_0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.div-img2{
+  height: 100%;
+  background-image: url(../assets/cropped_0_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.div-img3{
+  height: 100%;
+  background-image: url(../assets/cropped_0_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.portfolio-img-div1{
+  display: flex;
+  margin-top: 2vh;
+  
+ 
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: 50%;
+ 
+}
+.div-img4{
+  height: 100%;
+  background-image: url(../assets/cropped_1_0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.div-img5{
+  height: 100%;
+  background-image: url(../assets/cropped_1_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.div-img6{
+  height: 100%;
+  background-image: url(../assets/cropped_1_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width: 33.33%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+@media screen and  (max-width:1024px) {
+.portfolio-container{
+  background-color: rgb(17, 16, 16);
+   height:300vh;
+  /* display: block; */
+ 
+}
+.portfolio-title{
+ position: absolute;
+  color: rgb(235, 229, 229);
+  margin-top: 3.5vh;
+ margin-left: 25vw;
+  font-size: 3.8rem;
+  font-weight: lighter;
+  justify-content: center;
+ }
+ .img-div{
+  /* background-color:rgb(96, 67, 67) ; */
+ display:block;
+ height:max-content;
+ margin-top: 12vh;
+ margin-left: 5vw;
+ height:250vh;
+ width: 90%;
+  
+}
+.portfolio-img-div{
+  flex-direction: column;
+  width: 100%;
+  height:50%;
+}
+.portfolio-img-div1{
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  gap: 15px
+}
+.div-img1{
+  height: 33.33%;
+  background-image: url(../assets/cropped_0_0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width:100%;
+  
+ 
+ 
+  justify-content: space-around;
+  
+ 
+}
+.div-img2{
+  height:33.33%;
+  background-image: url(../assets/cropped_0_1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-color: hotpink; */
+ width:100%;
+ 
+  justify-content: space-around;
+ margin-top: 15px;
+ 
+}
+.div-img3{
+  height: 33.33%;
+  background-image: url(../assets/cropped_0_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width:100%;
+ 
+  justify-content: space-around;
+ margin-top: 15px;
+ 
+}
+ 
+.div-img4{
+  height: 33.33%;
+  background-image: url(../assets/cropped_1_0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width:100%;
+ 
+  justify-content: space-around;
+ margin: 0px 5px;
+ 
+}
+.div-img5{
+  height: 33.33%;
+  background-image: url(../assets/cropped_1_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width:100%;
+ 
+  justify-content: space-around;
+  margin-top: 15px;
+ 
+}
+.div-img6{
+  height: 33.33%;
+  background-image: url(../assets/cropped_1_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: hotpink; */
+ width:100%;
+ 
+  justify-content: space-around;
+  margin-top: 15px;
+ 
+}
+
+}
+@media screen and(max-width:550px)
+{
+    
+}
